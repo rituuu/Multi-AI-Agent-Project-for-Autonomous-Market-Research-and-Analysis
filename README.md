@@ -87,7 +87,7 @@ All three are orchestrated through a **LangGraph StateGraph**, maintaining a sha
 | Layer                      | Technology / Tool                          | Purpose                                                        |
 | -------------------------- | ------------------------------------------ | -------------------------------------------------------------- |
 | **LLM Interface**          | LangChain + LangGraph                      | Multi-agent orchestration & message state management           |
-| **Model Backend**          | LLM (Generic / Gemini / OpenAI compatible) | Natural language reasoning & generation                        |
+| **Model Backend**          | LLM (Gemini 2.5 Flash) | Natural language reasoning & generation                        |
 | **Web Framework**          | Gradio                                     | Interactive front-end for query input and output visualization |
 | **Search Tool**            | Tavily API                                 | Web-based search for live industry and company data            |
 | **Environment Management** | Conda / Virtualenv                         | Isolated reproducible Python environment                       |
