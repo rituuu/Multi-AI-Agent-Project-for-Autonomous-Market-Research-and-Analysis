@@ -52,37 +52,6 @@ All agents interact dynamically through a **LangGraph-based state machine**, cre
 
 Perfect for demonstrating skills in **Agentic AI, Market Intelligence, LangGraph orchestration, and LLM workflow automation** — highly demanded areas in enterprise AI and GenAI roles.
 
-## Project Structure: 
-│
-├── app/ <br>
-│   └── backend/ <br>
-│       ├── __init__.py <br>
-│       └── fastapi_app.py      # your FastAPI app <br>
-│
-├── agents/ <br>
-│   ├── __init__.py <br>
-│   └── MultiAgents.py         # your multi-agent workflow <br>
-│
-├── frontend/ <br>
-│   ├── __init__.py <br>
-│   └── ui.py                  # Gradio frontend <br>
-│
-├── common/  <br>
-│   ├── __init__.py <br>
-│   ├── logger.py <br>
-│   └── custom_exception.py  <br>
-│
-├── configuration/  <br>
-│   ├── __init__.py  <br>
-│   └── config.py              # settings object   <br>
-│
-├── output/                    # resources will be saved here   <br>
-│
-├── .env  <br>
-├── requirements.txt  <br>
-└── README.md   <br>
-
-
 ## Architecture
 
 ```
