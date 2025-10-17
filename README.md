@@ -54,33 +54,33 @@ Perfect for demonstrating skills in **Agentic AI, Market Intelligence, LangGraph
 
 ## Project Structure: 
 │
-├── app/
-│   └── backend/
-│       ├── __init__.py
-│       └── fastapi_app.py      # your FastAPI app
+├── app/ <br>
+│   └── backend/ <br>
+│       ├── __init__.py <br>
+│       └── fastapi_app.py      # your FastAPI app <br>
 │
-├── agents/
-│   ├── __init__.py
-│   └── MultiAgents.py         # your multi-agent workflow
+├── agents/ <br>
+│   ├── __init__.py <br>
+│   └── MultiAgents.py         # your multi-agent workflow <br>
 │
-├── frontend/
-│   ├── __init__.py
-│   └── ui.py                  # Gradio frontend
+├── frontend/ <br>
+│   ├── __init__.py <br>
+│   └── ui.py                  # Gradio frontend <br>
 │
-├── common/
-│   ├── __init__.py
-│   ├── logger.py
-│   └── custom_exception.py
+├── common/  <br>
+│   ├── __init__.py <br>
+│   ├── logger.py <br>
+│   └── custom_exception.py  <br>
 │
-├── configuration/
-│   ├── __init__.py
-│   └── config.py              # settings object
+├── configuration/  <br>
+│   ├── __init__.py  <br>
+│   └── config.py              # settings object   <br>
 │
-├── output/                    # resources will be saved here
+├── output/                    # resources will be saved here   <br>
 │
-├── .env
-├── requirements.txt
-└── README.md
+├── .env  <br>
+├── requirements.txt  <br>
+└── README.md   <br>
 
 
 ## Architecture
