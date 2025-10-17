@@ -189,12 +189,10 @@ http://127.0.0.1:7860
 * AI/ML/Automation opportunities
 * Competitor landscape
 * Datasets and frameworks for implementation
-
-
 ---
 
-**Author:** RITU GUJELA
-**Tech Stack:** Python • LangChain • LangGraph • Gradio • Tool Integration • FastAPI 
-**License:** MIT
+**Author:** RITU GUJELA <br>
+**Tech Stack:** Python • LangChain • LangGraph • Gradio • Tool Integration • FastAPI <br>
+**License:** MIT <br>
 
 ---
