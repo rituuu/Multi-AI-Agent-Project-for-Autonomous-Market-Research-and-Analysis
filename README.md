@@ -48,10 +48,6 @@ All agents interact dynamically through a **LangGraph-based state machine**, cre
   * AI-Powered Chat Systems
 * Saves all results in a time-stamped Markdown file for reproducibility.
 
-### Real-World Application
-
-Perfect for demonstrating skills in **Agentic AI, Market Intelligence, LangGraph orchestration, and LLM workflow automation** — highly demanded areas in enterprise AI and GenAI roles.
-
 ## Architecture
 
 ```
