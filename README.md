@@ -211,12 +211,6 @@ Portfolio-ready system demonstrating Agentic AI in action <br>
 * Support for additional LLMs and reasoning agents <br>
 * API deployment for enterprise use <br>
 
-## Ideal For
-
-**AI Research & Innovation Roles**
-**Data Science / AI Product Engineer Portfolios**
-**Agentic AI & Multi-Agent Systems Demonstration Projects**
-
 ---
 
 **Author:** RITU GUJELA
