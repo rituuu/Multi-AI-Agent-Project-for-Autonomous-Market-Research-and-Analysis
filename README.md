@@ -3,7 +3,7 @@
 
 An **intelligent multi-agent system** that automates **market research, AI use-case generation, and resource asset discovery** using orchestrated **LLM-driven agents** built with **LangGraph**, **LangChain**, and **Gradio**.
 
-This project demonstrates how multiple AI agents can collaboratively reason, research, and produce actionable business intelligence — exactly the kind of applied AI system recruiters and organizations are looking for today.
+This project demonstrates how multiple AI agents can collaboratively reason, research, and produce actionable business intelligence.
 
 ---
 
@@ -90,7 +90,7 @@ All three are orchestrated through a **LangGraph StateGraph**, maintaining a sha
 | **Model Backend**          | LLM (Gemini 2.5 Flash) | Natural language reasoning & generation                        |
 | **Web Framework**          | Gradio                                     | Interactive front-end for query input and output visualization |
 | **Search Tool**            | Tavily API                                 | Web-based search for live industry and company data            |
-| **Environment Management** | Conda / Virtualenv                         | Isolated reproducible Python environment                       |
+| **Environment Management** | Conda env                                  | Isolated reproducible Python environment                       |
 | **Logging**                | Python `logging`                           | Workflow traceability and debugging                            |
 
 ---
@@ -194,22 +194,6 @@ http://127.0.0.1:7860
 * Competitor landscape
 * Datasets and frameworks for implementation
 
----
-
-## What This Project Demonstrates
-
-End-to-end orchestration of autonomous AI agents <br>
-Expertise in LangGraph, LangChain, and LLM workflows <br>
-Business-aligned reasoning & multi-stage task automation <br>
-Strong grasp of AI product ideation and research automation <br>
-Portfolio-ready system demonstrating Agentic AI in action <br>
-
-## Future Improvements
-
-* Integrate vector databases for memory persistence <br>
-* Add visualization dashboards for use-case mapping <br>
-* Support for additional LLMs and reasoning agents <br>
-* API deployment for enterprise use <br>
 
 ---
 
