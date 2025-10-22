@@ -3,7 +3,7 @@
 
 An **intelligent multi-agent system** that automates **market research, AI use-case generation, and resource asset discovery** using orchestrated **LLM-driven agents** built with **LangGraph**, **LangChain**, and **Gradio**.
 
-This project demonstrates how multiple AI agents can collaboratively reason, research, and produce actionable business intelligence — exactly the kind of applied AI system recruiters and organizations are looking for today.
+This project demonstrates how multiple AI agents can collaboratively reason, research, and produce actionable business intelligence.
 
 ---
 
@@ -48,41 +48,6 @@ All agents interact dynamically through a **LangGraph-based state machine**, cre
   * AI-Powered Chat Systems
 * Saves all results in a time-stamped Markdown file for reproducibility.
 
-### Real-World Application
-
-Perfect for demonstrating skills in **Agentic AI, Market Intelligence, LangGraph orchestration, and LLM workflow automation** — highly demanded areas in enterprise AI and GenAI roles.
-
-## Project Structure: 
-│
-├── app/
-│   └── backend/
-│       ├── __init__.py
-│       └── fastapi_app.py      # your FastAPI app
-│
-├── agents/
-│   ├── __init__.py
-│   └── MultiAgents.py         # your multi-agent workflow
-│
-├── frontend/
-│   ├── __init__.py
-│   └── ui.py                  # Gradio frontend
-│
-├── common/
-│   ├── __init__.py
-│   ├── logger.py
-│   └── custom_exception.py
-│
-├── configuration/
-│   ├── __init__.py
-│   └── config.py              # settings object
-│
-├── output/                    # resources will be saved here
-│
-├── .env
-├── requirements.txt
-└── README.md
-
-
 ## Architecture
 
 ```
@@ -118,10 +83,10 @@ All three are orchestrated through a **LangGraph StateGraph**, maintaining a sha
 | Layer                      | Technology / Tool                          | Purpose                                                        |
 | -------------------------- | ------------------------------------------ | -------------------------------------------------------------- |
 | **LLM Interface**          | LangChain + LangGraph                      | Multi-agent orchestration & message state management           |
-| **Model Backend**          | LLM (Generic / Gemini / OpenAI compatible) | Natural language reasoning & generation                        |
+| **Model Backend**          | LLM (Gemini 2.5 Flash) | Natural language reasoning & generation                        |
 | **Web Framework**          | Gradio                                     | Interactive front-end for query input and output visualization |
 | **Search Tool**            | Tavily API                                 | Web-based search for live industry and company data            |
-| **Environment Management** | Conda / Virtualenv                         | Isolated reproducible Python environment                       |
+| **Environment Management** | Conda env                                  | Isolated reproducible Python environment                       |
 | **Logging**                | Python `logging`                           | Workflow traceability and debugging                            |
 
 ---
@@ -224,34 +189,10 @@ http://127.0.0.1:7860
 * AI/ML/Automation opportunities
 * Competitor landscape
 * Datasets and frameworks for implementation
-
 ---
 
-## What This Project Demonstrates
-
-End-to-end orchestration of autonomous AI agents <br>
-Expertise in LangGraph, LangChain, and LLM workflows <br>
-Business-aligned reasoning & multi-stage task automation <br>
-Strong grasp of AI product ideation and research automation <br>
-Portfolio-ready system demonstrating Agentic AI in action <br>
-
-## Future Improvements
-
-* Integrate vector databases for memory persistence <br>
-* Add visualization dashboards for use-case mapping <br>
-* Support for additional LLMs and reasoning agents <br>
-* API deployment for enterprise use <br>
-
-## Ideal For
-
-**AI Research & Innovation Roles**
-**Data Science / AI Product Engineer Portfolios**
-**Agentic AI & Multi-Agent Systems Demonstration Projects**
-
----
-
-**Author:** RITU GUJELA
-**Tech Stack:** Python • LangChain • LangGraph • Gradio • Tool Integration • FastAPI 
-**License:** MIT
+**Author:** RITU GUJELA <br>
+**Tech Stack:** Python • LangChain • LangGraph • Gradio • Tool Integration • FastAPI <br>
+**License:** MIT <br>
 
 ---
