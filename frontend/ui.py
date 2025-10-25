@@ -19,7 +19,7 @@ def run_backend():
     try:
         logger.info("Starting backend service...")
         subprocess.run(
-            ["uvicorn", "app.backend.fastapi_app:app", "--host", "127.0.0.1", "--port", "8001", "--reload"], check=True)
+            ["uvicorn", "app.backend.fastapi_app:app", "--host", "0.0.0.0", "--port", "8001", "--reload"], check=True)
     except CustomException as e:
         logger.error("Problem with backend service")
         raise CustomException("Failed to start backend", e)
@@ -80,7 +80,7 @@ def run_frontend():
             submit_button.click(gradio_interface_with_progress, inputs=[query], outputs=[output])
 
         # Launch Gradio UI
-        demo.launch(server_name="127.0.0.1", server_port=7860)
+        demo.launch(server_name="0.0.0.0", server_port=7860)
 
     except CustomException as e:
         logger.error("Problem with frontend service")
