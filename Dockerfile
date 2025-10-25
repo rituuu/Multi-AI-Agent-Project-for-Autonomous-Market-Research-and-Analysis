@@ -22,7 +22,7 @@ RUN pip install --no-cache-dir -e .
 
 # Used PORTS
 EXPOSE 7860
-EXPOSE 8001
+EXPOSE 8001  
 
 # Run the app 
 CMD ["python", "frontend/ui.py"]
