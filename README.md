@@ -3,7 +3,7 @@
 
 An **intelligent multi-agent system** that automates **market research, AI use-case generation, and resource asset discovery** using orchestrated **LLM-driven agents** built with **LangGraph**, **LangChain**, and **Gradio**.
 
-##### This project demonstrates how multiple AI agents can collaboratively reason, research, and produce actionable business intelligence. It is fully integrated with a CI/CD-driven LLMOps pipeline. The pipeline automates code analysis, image builds, deployment, and monitoring for a truly production-grade setup.
+#### This project demonstrates how multiple AI agents can collaboratively reason, research, and produce actionable business intelligence. It is fully integrated with a CI/CD-driven LLMOps pipeline. The pipeline automates code analysis, image builds, deployment, and monitoring for a truly production-grade setup.
 #### The FastAPI app is fully functional and deployed on Amazon ECS using AWS Fargate. 
 ---
 
