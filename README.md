@@ -82,15 +82,15 @@ All three are orchestrated through a **LangGraph StateGraph**, maintaining a sha
 
 | Layer                      | Technology / Tool                          | Purpose                                                        |
 | -------------------------- | ------------------------------------------ | -------------------------------------------------------------- |
-| **LLM Interface**          | LangChain + LangGraph                      | Multi-agent orchestration & message state management           |
-| **Model Backend**          | LLM (Gemini 2.5 Flash) and FastAPI         | Natural language reasoning & generation                        |
-| **Web Framework**          | Gradio                                     | Interactive front-end for query input and output visualization |
+| **Agent Interface**        | LangChain + LangGraph                      | Multi-agent orchestration & message state management           |
+| **Agent Backend**          | LLM (Gemini 2.5 Flash)                     | Natural language reasoning & generation                        |
+| **Web Framework**          | FastAPI                                    | For building APIs                                              |
 | **Search Tool**            | Tavily API                                 | Web-based search for live industry and company data            |
-| **DevOps & LLMOps**        | Docker, Jenkins, SonarQube, AWS ECS        |
-| **Monitoring**             | Jenkins logs, SonarQube dashboard          |
-| **Version Control & CI/CD**| GitHub + Jenkins integration               |
-| **Container Registry**     | Docker Hub / AWS ECR                       |
-| **Deployment**             | AWS ECS (Fargate) for production deployment|
+| **LLMOps**                 | Docker, Jenkins, SonarQube, AWS ECS        |Automated CI/CD pipeline, code-quality checks, container orchestration, and cloud deployment |
+| **Monitoring**             | Jenkins logs, SonarQube dashboard          |Build tracking, and system monitoring                           |
+| **Version Control & CI/CD**| GitHub + Jenkins integration               |Continuous integration, automated build → deploy workflows      |
+| **AWS Container Registry** | Docker Hub / AWS ECR                       |Versioned image storage and retrieval for deployment            |
+| **Deployment**             | AWS ECS (Fargate) for production deployment|Serverless, scalable, and production-grade container deployment platform |
 
 ---
 
