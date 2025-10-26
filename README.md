@@ -195,7 +195,7 @@ http://127.0.0.1:7860
 ---
 ## DEPLOYMENT USING CI/CD PIPELINE :
 
-**Containerization with Docker**
+**🧩Containerization with Docker**
 
 Each micro-service (API layer, agent logic, ingestion pipeline) is packaged into a Docker container with a Dockerfile.
 Images are built via Jenkins pipeline and tagged with version numbers.
@@ -226,6 +226,7 @@ Jenkins job logs and SonarQube dashboards provide complete observability.
 **🔐 Configuration & Secrets Management**
 
 Secure handling of environment variables using .env and AWS Secrets Manager.
+
 
 **Author:** RITU GUJELA <br>
 **Tech Stack:** Python • LangChain • LangGraph • Gradio • Tool Integration • FastAPI <br>
