@@ -197,7 +197,7 @@ http://127.0.0.1:7860
 
 **🧩Containerization with Docker**
 
-Each micro-service (API layer, agent logic, ingestion pipeline) is packaged into a Docker container with a Dockerfile.
+Each micro-service (API layer, agent logic) is packaged into a Docker container with a Dockerfile.
 Images are built via Jenkins pipeline and tagged with version numbers.
 Ensures environment consistency from local development to AWS ECS.
 
@@ -213,6 +213,7 @@ Tracks code quality metrics, security vulnerabilities, and maintainability score
 Quality gates ensure only high-quality code proceeds to deployment.
 
 **☁️ Continuous Deployment (CD) to AWS ECS**
+
 Post-analysis, Jenkins Images are pushed to the container registry (e.g., AWS ECR) after successful build.
 ECS deployment updates services automatically with new containers.
 Zero-downtime deployment achieved using ECS Fargate.
