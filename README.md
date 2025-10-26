@@ -3,8 +3,8 @@
 
 An **intelligent multi-agent system** that automates **market research, AI use-case generation, and resource asset discovery** using orchestrated **LLM-driven agents** built with **LangGraph**, **LangChain**, and **Gradio**.
 
-This project demonstrates how multiple AI agents can collaboratively reason, research, and produce actionable business intelligence.
-
+This project demonstrates how multiple AI agents can collaboratively reason, research, and produce actionable business intelligence. It is fully integrated with a CI/CD-driven LLMOps pipeline. The pipeline automates code analysis, image builds, deployment, and monitoring for a truly production-grade setup.
+The FastAPI app is fully functional and deployed on Amazon ECS using AWS Fargate. 
 ---
 
 ## Project Overview
@@ -83,11 +83,14 @@ All three are orchestrated through a **LangGraph StateGraph**, maintaining a sha
 | Layer                      | Technology / Tool                          | Purpose                                                        |
 | -------------------------- | ------------------------------------------ | -------------------------------------------------------------- |
 | **LLM Interface**          | LangChain + LangGraph                      | Multi-agent orchestration & message state management           |
-| **Model Backend**          | LLM (Gemini 2.5 Flash) | Natural language reasoning & generation                        |
+| **Model Backend**          | LLM (Gemini 2.5 Flash) and FastAPI         | Natural language reasoning & generation                        |
 | **Web Framework**          | Gradio                                     | Interactive front-end for query input and output visualization |
 | **Search Tool**            | Tavily API                                 | Web-based search for live industry and company data            |
-| **Environment Management** | Conda env                                  | Isolated reproducible Python environment                       |
-| **Logging**                | Python `logging`                           | Workflow traceability and debugging                            |
+| **DevOps & LLMOps**        | Docker, Jenkins, SonarQube, AWS ECS        |
+| **Monitoring**             | Jenkins logs, SonarQube dashboard          |
+| **Version Control & CI/CD**| GitHub + Jenkins integration               |
+| **Container Registry**     | Docker Hub / AWS ECR                       |
+| **Deployment**             | AWS ECS (Fargate) for production deployment|
 
 ---
 
@@ -190,6 +193,39 @@ http://127.0.0.1:7860
 * Competitor landscape
 * Datasets and frameworks for implementation
 ---
+DEPLOYMENT USING CI/CD PIPELINE :
+
+**Containerization with Docker**
+
+Each micro-service (API layer, agent logic, ingestion pipeline) is packaged into a Docker container with a Dockerfile.
+Images are built via Jenkins pipeline and tagged with version numbers.
+Ensures environment consistency from local development to AWS ECS.
+
+**🔁 Continuous Integration (CI) using Jenkins**
+
+Jenkins pipeline automates Docker image builds.
+Environment variables and credentials are managed via Jenkins Secrets.
+
+**🧪 Code Quality & Security Analysis with SonarQube**
+
+SonarQube performs static code analysis after every Jenkins build.
+Tracks code quality metrics, security vulnerabilities, and maintainability scores.
+Quality gates ensure only high-quality code proceeds to deployment.
+
+**☁️ Continuous Deployment (CD) to AWS ECS**
+Post-analysis, Jenkins Images are pushed to the container registry (e.g., AWS ECR) after successful build.
+ECS deployment updates services automatically with new containers.
+Zero-downtime deployment achieved using ECS Fargate.
+Health checks and rollback mechanisms implemented for reliability.
+
+**📊 Monitoring & Logging**
+
+Performance metrics (CPU, memory, latency) monitored in real time.
+Jenkins job logs and SonarQube dashboards provide complete observability.
+
+**🔐 Configuration & Secrets Management**
+
+Secure handling of environment variables using .env and AWS Secrets Manager.
 
 **Author:** RITU GUJELA <br>
 **Tech Stack:** Python • LangChain • LangGraph • Gradio • Tool Integration • FastAPI <br>
