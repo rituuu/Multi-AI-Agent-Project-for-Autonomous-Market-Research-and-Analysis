@@ -146,7 +146,7 @@ This output can be shared directly in professional reports, dashboards, or resea
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/rituuu/multi-agent-market-research.git
+git clone https://github.com/rituuu/Multi-AI-Agent-Project-for-Autonomous-Market-Research-and-Analysis.git)
 cd multi-agent-market-research
 ```
 
