@@ -149,21 +149,22 @@ This output can be shared directly in professional reports, dashboards, or resea
 git clone https://github.com/rituuu/Multi-AI-Agent-Project-for-Autonomous-Market-Research-and-Analysis.git
 cd multi-agent-market-research
 ```
-
 ### 1.	Create a conda environment
+```bash
 conda create -p venv python==3.11.13 –y
-
+```
 ### 2.	Activate conda environment
+```bash
 conda activate venv
-
+```
 ### 3.	After activating we will install this requirements.txt
-
+```bash
 pip install –r requirements.txt
-
+```
 ### 4. Set Up Environment Variables
-
+```bash
 Create a `.env` file with your API keys:
-
+```
 ```bash
 TAVILY_API_KEY=your_tavily_key
 GOOGLE_API_KEY=your_google_key
