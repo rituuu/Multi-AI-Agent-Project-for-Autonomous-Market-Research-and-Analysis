@@ -194,7 +194,7 @@ http://127.0.0.1:7860
 * Competitor landscape
 * Datasets and frameworks for implementation
 ---
-## Deployment USING CI/CD PIPELINE :
+## Deployment using CI/CD PIPELINE :
 
 **🧩Containerization with Docker**
 
