@@ -146,7 +146,7 @@ This output can be shared directly in professional reports, dashboards, or resea
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/rituuu/Multi-AI-Agent-Project-for-Autonomous-Market-Research-and-Analysis.git)
+git clone https://github.com/rituuu/Multi-AI-Agent-Project-for-Autonomous-Market-Research-and-Analysis.git
 cd multi-agent-market-research
 ```
 
@@ -193,7 +193,7 @@ http://127.0.0.1:7860
 * Competitor landscape
 * Datasets and frameworks for implementation
 ---
-## DEPLOYMENT USING CI/CD PIPELINE :
+## Deployment USING CI/CD PIPELINE :
 
 **🧩Containerization with Docker**
 
