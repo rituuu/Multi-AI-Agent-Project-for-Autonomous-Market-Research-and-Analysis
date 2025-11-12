@@ -6,6 +6,7 @@ An **intelligent multi-agent system** that automates **market research, AI use-c
 #### This project demonstrates how multiple AI agents can collaboratively reason, research, and produce actionable business intelligence. It is fully integrated with a CI/CD-driven LLMOps pipeline. The pipeline automates code analysis, image builds, deployment, and monitoring for a truly production-grade setup.
 #### The FastAPI app is fully functional and deployed on Amazon ECS using AWS Fargate. 
 ---
+![Autonomous Systems - SQ 6](https://github.com/user-attachments/assets/143ce355-115f-4b26-9a53-da96d45b8cd5)
 
 ## Project Overview
 
