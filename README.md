@@ -77,6 +77,7 @@ All agents interact dynamically through a **LangGraph-based state machine**, cre
 
 All three are orchestrated through a **LangGraph StateGraph**, maintaining a shared state of `messages` and looping until insights are complete.
 
+<img width="1802" height="710" alt="Multi+AI+Agent+Workflow" src="https://github.com/user-attachments/assets/3c990975-604a-49ed-829f-fd1ef533fc03" />
 ---
 
 ## Tech Stack
@@ -196,8 +197,6 @@ http://127.0.0.1:7860
 * Datasets and frameworks for implementation
 ---
 ## Deployment using CI/CD PIPELINE :
-
-<img width="1802" height="710" alt="Multi+AI+Agent+Workflow" src="https://github.com/user-attachments/assets/3c990975-604a-49ed-829f-fd1ef533fc03" />
 
 **🧩Containerization with Docker**
 
